@@ -1,0 +1,230 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background:
+    url('assets/images/pattern-squiggly-line-bottom-desktop.svg') no-repeat bottom left,
+    url('assets/images/pattern-squiggly-line-top.svg') no-repeat top right,
+    url('assets/images/pattern-lines.svg') no-repeat center center/cover,
+    url('assets/images/pattern-circle.svg') no-repeat center,
+    url('assets/images/background-desktop.png') no-repeat center center/cover;
+    width: auto;
+    height: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    }
+.main-heading{
+    font-family: 'customFont';
+    src: url(assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf) format(truetype);
+    text-align: center;
+    }
+
+ #ticket-name{
+    font-family: 'customFont';
+    src: url(assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf) format(truetype);
+    }
+
+.secondary-heading{
+    text-align: center;
+    }
+
+.ticket {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    }
+
+.ticket-background img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+.ticket-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+
+.conference-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    }
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    }
+
+.conference-text {
+    display: flex;
+    flex-direction: column;
+    }
+
+.conference-text h5 {
+    margin: 0 0 5px 0;
+    font-size: 40px;
+    }
+
+.conference-text h6 {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    }
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    }
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+    }
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    }
+
+.name {
+    margin: 0 0 5px 0;
+    font-size: 30px;
+    }
+
+.github-handle {
+    display: flex;
+    align-items: center;
+    }
+
+.github-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    }
+
+.github-handle h6 {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    }
+
+#top{
+    margin-top: 10px;
+    }
+        
+.background-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    }
+        
+.background-elements img {
+    position: absolute;
+    width: 150px;
+    opacity: 0.6;
+    }
+        
+.element1 { top: 50%; right: 10%; }
+.element2 { bottom: 15%; left: 30%; }
+        
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    }
+        
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    }
+        
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    }
+        
+.upload-box {
+    border: 2px dashed rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+        
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+    }
+        
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    }
+        
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    }
+        
+button:hover {
+    background: #ff4f4f;
+    }
+        
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    }
+        
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+        
+ #label{
+    text-align: left;
+    }
+        
+#sp{
+    font-size: 12px;
+    }
+        
+#top{
+    margin-top: 10px;
+     margin-bottom: 30px;
+    }
